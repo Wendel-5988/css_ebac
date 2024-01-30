@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body > header {
+  padding: 20px;
+  background-color: rgb(21, 21, 21);
+  color: aliceblue;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  display: inline;
+  margin-left: 10px;
+}
+
+header li  a{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header li a:hover{
+  text-decoration: underline aliceblue;
+  
+}
+
+.articles {
+  padding: 25px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+
+.articles article img {
+  width: 100%;
+}
+
+#petr {
+  height: 34.5vh;
+}
+
+.articles article {
+  width: 30%;
+}
+
+
+.title2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(253, 253, 255);
+  
+}
+
+#bahia {
+  padding-top: 20px;
+  background-color:rgba(78, 78, 179, 0.377);
+}
+
+#humor {
+  padding-top: 20px;
+  background-color:rgba(179, 78, 78, 0.377);
+}
+
+#sports {
+  padding-top: 20px;
+  background-color:rgba(78, 179, 83, 0.377);
+}
+
+#economy {
+  padding-top: 20px;
+  background-color:rgba(179, 157, 78, 0.377);
+}
+
+.artigo {
+  padding: 10px;
+  border: solid 2px aliceblue;  
+}
+.artigo:hover{
+  background-color: rgba(240, 248, 255, 0.304);
+  border: solid  3px aliceblue;
+}
+
+.articles article h3 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.articles article header {
+  display: flex;
+  justify-content: end;
+  color: rgb(0, 0, 0);
+  font-size: small;
+}
+
+.articles article a {
+  background-color:rgba(44, 43, 43, 0.455);
+  padding: 5px;
+  color:aliceblue;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.articles article a:hover {
+  color:aliceblue; 
+  text-decoration: underline;
+}
+
+.articles article p {
+  color: rgb(44, 43, 43);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
